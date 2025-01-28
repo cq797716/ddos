@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import sys
 import os
 import time
@@ -64,7 +66,7 @@ def validate_input(ip: str, port: int, threads: int) -> bool:
         return False
 
 def main():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls' if os.名字 == 'nt' else 'clear')
     print("增强版 DDos 攻击工具 (优化版)")
     print("-" * 50)
     
